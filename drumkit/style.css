@@ -1,0 +1,9 @@
+.key {
+  text-align: center;
+  background: yellow;
+}
+
+.caption {
+  display: block;
+  background-color: red;
+}
