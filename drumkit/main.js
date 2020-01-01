@@ -5,10 +5,6 @@ function getKey() {
 
 getKey();
 
-
 function playSound(e) {
-  const {key} = e.currentTarget.dataset
-  console.log('play sound');
+  e.currentTarget.children[1].play()
 }
-
-// need to get the correct key onclick to play a sound

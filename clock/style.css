@@ -1,0 +1,9 @@
+.second {
+  width: 5px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform-origin: bottom;
+}
