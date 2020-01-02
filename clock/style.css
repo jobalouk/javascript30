@@ -1,9 +1,29 @@
-.second {
+.seconds {
   width: 5px;
-  height: 100px;
+  height: 150px;
   background-color: black;
   position: absolute;
   left: 50%;
   top: 35%;
+  transform-origin: bottom;
+}
+
+.minutes {
+  width: 5px;
+  height: 115px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  transform-origin: bottom;
+}
+
+.hour {
+  width: 5px;
+  height: 80px;
+  background-color: green;
+  position: absolute;
+  left: 50%;
+  top: 42%;
   transform-origin: bottom;
 }
